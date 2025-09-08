@@ -1,0 +1,82 @@
+{
+    "chartData": [
+        {
+            "id": 1,
+            "nodes": [
+                {
+                    "id": 0,
+                    "name": "主节点",
+                    "symbolSize": 100,
+                    "category": "主节点"
+                },
+                {
+                    "id": 1,
+                    "name": "分类A-节点1",
+                    "symbolSize": 75,
+                    "category": "分类A"
+                },
+                {
+                    "id": 2,
+                    "name": "分类A-节点2",
+                    "symbolSize": 75,
+                    "category": "分类A"
+                },
+                {
+                    "id": 3,
+                    "name": "分类B-节点3",
+                    "symbolSize": 75,
+                    "category": "分类B"
+                },
+                {
+                    "id": 4,
+                    "name": "分类B-节点4",
+                    "symbolSize": 75,
+                    "category": "分类B"
+                }
+            ],
+            "links": [
+                {
+                    "source": "1",
+                    "target": "2",
+                    "label": "主关系1"
+                },
+                {
+                    "source": "0",
+                    "target": "3",
+                    "label": "主关系2"
+                },
+                {
+                    "source": "2",
+                    "target": "4",
+                    "label": "子关系A-B"
+                },
+                {
+                    "source": "0",
+                    "target": "5",
+                    "label": "子关系A-B"
+                },
+                {
+                    "source": "4",
+                    "target": "3",
+                    "label": "内部关系"
+                }
+            ],
+            "categories": [
+                {
+                    "name": "主节点"
+                },
+                {
+                    "name": "分类A"
+                },
+                {
+                    "name": "分类B"
+                }
+            ],
+            "attributes": {
+                "name": "主节点",
+                "age": 18,
+                "description": "红红火火恍恍惚惚哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈，和发u和覅哦啊手大V和扩大比v户外u和服我和好VB爱。"
+            }
+        }
+    ]
+}

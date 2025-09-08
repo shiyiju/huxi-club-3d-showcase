@@ -1,0 +1,28 @@
+{
+  "name": "social_practice",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@types/three": "^0.178.1",
+    "axios": "^1.10.0",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.10.4",
+    "json-server": "^0.17.4",
+    "less": "^4.3.0",
+    "less-loader": "^12.3.0",
+    "path": "^0.12.7",
+    "three": "^0.178.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.4"
+  }
+}

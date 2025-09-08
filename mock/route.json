@@ -1,0 +1,4 @@
+{
+    "/api/getChartData": "/chartData",
+    "/api/getChartData/:id": "/chartData/:id"
+}
