@@ -53,7 +53,7 @@ export default class Engine {
         this.raycaster = new THREE.Raycaster();
 
         // --- 步骤1: 加载所有静态场景元素 ---
-        await this.loadScene('/scene.json');
+        await this.loadScene('https://pub-a794bbd076364852ad966496464ba55a.r2.dev/scene.json');
 
         this.setupAdvancedRendering();
 
